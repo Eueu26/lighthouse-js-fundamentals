@@ -37,3 +37,27 @@ if (temperature < 0) {
 console.log("Now you're ready to go outside!");
 /* returns: "Short sleeves won't cut it" and 
 "Now ur ready to go outside" */
+
+// testing out the (&&)AND logical operators
+const isCitizen = true;
+const age = 26;
+
+if (isCitizen && age > 18) {
+  console.log("You are eligible to vote.");
+}
+//returns: "You are eligible to vote."
+/* we checked if both isCitizen and age 
+are true for the if statement overall. if the
+2 conditions are false, the whole expression is false. */
+
+//looking at the (||)OR operator 
+
+if (temperature < -40 || temperature > 40) {
+  console.log("Maybe going outside isn't such a great idea…");
+}
+/*if statement is true when temp is either below or above.
+Returns: "Maybe going outside isn't such a great idea" */
+
+if (!raining) {
+  console.log("Leave your umbrella at home!");
+}
